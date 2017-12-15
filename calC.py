@@ -33,25 +33,6 @@ def calc(bdeg, sigb, ldeg, sigl, dkpc, sigd, Har):
 
       if Har==1:
          print ("Excess_parallel_Reid2014, Excess_z_NT95 = ", adrc,", ", azbcnt)
-         
-         print ("Vp/Vs= ", Vprat(Rpkpcfunc(dkpc,b,l,par.Rskpc)))
-         print ("Rp' in m= ", Rp)
-         print ("cos(l)= ", math.cos(l))
-         print ("cos(lambda) = ", coslam)
-         print ("vp2/Rp= ", Vp2byRp)
-         print ("Vs2/Rs= ", Vs2byRs)
-         print ("(vp2/Rp)*cos(lambda)= ", Vp2byRp*coslam)
-         print ("(vs2/Rs)*cos(l)= ", Vs2byRs*math.cos(l))
       else:      
          print ("Excess_parallel_Reid2014, Excess_z_NT95 = ", adrc,"+/-",errReid, ", ", azbcnt,"+/-",errnt)
-         
-         print ("Vp/Vs= ", Vprat(Rpkpcfunc(dkpc,b,l,par.Rskpc)))
-         print ("Rp' in m= ", Rp)
-         print ("cos(l)= ", math.cos(l))
-         print ("cos(lambda) = ", coslam)
-         print ("vp2/Rp= ", Vp2byRp)
-         print ("Vs2/Rs= ", Vs2byRs)
-         print ("(vp2/Rp)*cos(lambda)= ", Vp2byRp*coslam)
-         print ("(vs2/Rs)*cos(l)= ", Vs2byRs*math.cos(l))
-
       return None;
